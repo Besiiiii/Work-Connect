@@ -637,3 +637,83 @@ header .name {
   text-decoration: none;
   color: #363636;
 }
+
+
+
+/* Responsive Fixing*/
+
+@media only screen and (max-width: 845px){
+    header .name{
+      font-size: 14px;
+    }
+    header .useri {
+      font-size: 13px;
+    }
+    header .i{
+      font-size: 25px;
+    }
+    .sidebari{
+      width: 50px;
+      min-height: 100%;
+      max-height: 200%;
+      height: 90vh;
+    }
+    .sidebari ul{
+      font-size: 13px;
+    }
+    .searchi input {
+      width: 26vw;
+    }
+    .searchi button{
+      width: fit-content;
+      font-size: 10px;
+    }
+    .kubi{
+      width: 300px;
+      height: 200px;
+    }
+    .userbox{
+      width: 75vw;
+      height: fit-content;
+      flex-direction: column;
+      margin-left: 5vw;
+    }
+    .usermain{
+      align-items: center;
+      flex-direction: column;
+    }
+    .jobcube{
+      margin-left: -22px;
+      width: 70vw;
+      height: fit-content;
+    }
+    .rezultatet {
+      width: 60vw;
+      gap: 5vw;
+    }
+    .krijovp{
+      top: 13vh;
+      right: 2vw;
+    }
+    .kerkofield{
+      flex-direction: column;
+      gap: 10px;
+    }
+    .searchb{
+      margin-left: 5vw;
+    }
+    .krijocube{
+      width: 75vw;
+      height: fit-content;
+    }
+    .krijoin{
+      margin-left: -50px;
+    }
+    .krijols{
+      width: 75vw;
+      flex-direction: column;
+    }
+    .krijocube button{
+      margin-left: 15vw;
+    }
+  }
